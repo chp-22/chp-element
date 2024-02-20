@@ -15,8 +15,11 @@
   查看不同镜像源：nrm  ls
 
   新建.npmrc文件后，设置【registry=https://registry.npmjs.org/】，这样就不用来回切换下载源
+  
 3、npm publish （一定要先npm login）
-注意点：1、修改版本号   2、package.json中private属性!=true   3、再次推送时需要修改version
+  1、修改版本号   
+  2、package.json中private属性!=true   
+  3、再次推送时需要修改version
 
 4、npm unpublish chp-element@0.1.4 --force   删掉上传的包
 
